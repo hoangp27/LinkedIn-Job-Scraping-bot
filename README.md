@@ -20,7 +20,7 @@ https://ca.linkedin.com/jobs/search?keywords=Data%20Analyst&location=Canada&loca
 
 2. The bot would loop through every single record, find relevant elements, and retrieve these data into table format.
 
-![WebP image with fallback](illustration/WebsiteUI-ScrapingElements.webp "WebP Image"){: .class-name}
+![WebP image with fallback](illustration/WebsiteUI-ScrapingElements.webp "WebP Image")
 
 3. The data will be written on to a google sheet file, which is live connected to Tableau Public dashboard that automatically update on any change of the data.
 
