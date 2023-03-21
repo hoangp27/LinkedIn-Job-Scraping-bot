@@ -24,6 +24,8 @@ https://ca.linkedin.com/jobs/search?keywords=Data%20Analyst&location=Canada&loca
 
 3. The data will be written on to a google sheet file, which is live connected to Tableau Public dashboard that automatically update on any change of the data.
 
+https://public.tableau.com/app/profile/hoang.pham3135/viz/LinkedInDataAnalystJobScraping/DATAANALYSTJOBPOSTINGSINCANADA
+
 4. Finally, with Window Task Scheduler, the Python bot will automatically run daily (as a batch file) at a specific time. This will automate the whole process (almost).
 
 ## Side Note:
