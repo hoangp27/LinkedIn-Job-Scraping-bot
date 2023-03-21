@@ -37,7 +37,5 @@ To replicate the boss you will need to lookup and install the most update Chrome
 - `illustration`: snapshot that show example
   - `WebsiteUI-ScrapingElements.webp`
   - `ScrollingLogic.webp`
-- `data`: Sample data in csv format of the bot output
-  - `Linkedin_Jobdata - Linkedin_Jobdata.csv`
-  
+- `data`: Google Drive Link to the sample output data of the bot
 
