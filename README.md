@@ -2,6 +2,14 @@
 
 In 2022, while looking for my first Data Analyst job after graduation, I have to painfully perform a daily mediocre task of scrolling through every single Data Analyst posting on LinkedIn, Glassdoor, Indeed, etc. It was  that moment that I stumbled upon the idea of creating a Web Scraping bot to do all the manual work.
 
+## Tools
+
+I used Python particularly the following tidyverse packages: *pandas, numpy, selenium, gspread, gspread-dataframe, google, pydrive*. I also install the latest Chromedriver to use Selenium: https://chromedriver.chromium.org/downloads
+
+In addition, I need to create an API on **Google Cloud Service** to allow the bots to access the Google Sheet page: https://console.cloud.google.com/apis . In case you don't want to write the data to google sheet component, this part is unneccesasry. Instead
+
+The environment is Jupyter Lab.
+
 ## Procedure
 
 The overall process should be something like this:
@@ -16,4 +24,20 @@ https://ca.linkedin.com/jobs/search?keywords=Data%20Analyst&location=Canada&loca
 
 4. Finally, with Window Task Scheduler, the Python bot will automatically run daily (as a batch file) at a specific time. This will automate the whole process (almost).
 
-##
+## Side Note:
+
+To replicate the boss you will need to lookup and install the most update ChromeDriver version and other python packages, as they keep releasing newer versions.
+
+## Directory
+
+
+- `README.MD`: Overview and Summary of the project
+- `LinkedinScraping.ipynb`: Python bot
+- 'R_Script_files`
+- `illustration`: snapshot that show example
+  - `WebsiteUI-ScrapingElements.webp`
+  - `ScrollingLogic.webp`
+- `data`: Sample data in csv format of the bot output
+  - `Linkedin_Jobdata - Linkedin_Jobdata.csv`
+  
+
