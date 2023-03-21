@@ -20,6 +20,8 @@ https://ca.linkedin.com/jobs/search?keywords=Data%20Analyst&location=Canada&loca
 
 2. The bot would loop through every single record, find relevant elements, and retrieve these data into table format.
 
+![WebP image with fallback](illustration/ScrollingLogic.webp "WebP Image"){: .class-name}
+
 3. The data will be written on to a google sheet file, which is live connected to Tableau Public dashboard that automatically update on any change of the data.
 
 4. Finally, with Window Task Scheduler, the Python bot will automatically run daily (as a batch file) at a specific time. This will automate the whole process (almost).
